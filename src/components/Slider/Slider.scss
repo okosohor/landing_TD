@@ -1,0 +1,120 @@
+@import '../../utils/vars.scss';
+@import '../../utils/mixins.scss';
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  padding: 55px 90px;
+
+  background-color: $secondaryBlueColor;
+  
+  &__title {
+    margin: 0 auto 30px;
+    
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    color: $whiteColor;
+
+    @include onMobile {
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+    }
+  }
+
+  &__subtitle {
+    margin: 0 auto 60px;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    color: $whiteColor;
+
+    @include onMobile {
+      font-size: 20px;
+    }
+  }
+
+  &__salary {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 30px;
+
+    &-text {
+      font-family: Verdana;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: normal;
+
+      color: $whiteColor;
+    }
+    
+  }
+
+  &__description {
+    margin-bottom: 50px;
+
+    &-text {
+      margin-bottom: 15px;
+
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: normal;
+
+      color: $whiteColor;
+    }
+
+    &-price {
+      color: $whiteColor;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    
+  }
+
+  &__button {
+    width: max-content;
+    margin: 0 auto;
+    padding: 30px 80px;
+    
+    font-family: Verdana;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: $secondaryBlueColor;
+
+    transition: all 0.3s ease-in-out;
+    
+    cursor: pointer;
+
+    @include onMobile {
+      padding: 15px 40px;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.MuiSlider-valueLabel {
+  background-color: #fff !important;
+  color: $secondaryBlueColor !important;
+}

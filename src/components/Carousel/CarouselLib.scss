@@ -1,0 +1,88 @@
+@import '../../utils/vars.scss';
+@import '../../utils/mixins.scss';
+
+.carousel {
+  &__section {
+    position: relative;
+
+    padding: 20px 155px 30px;
+
+    @include onMobile{
+      padding: 15px 30px 30px;
+    }
+  }
+
+  &-button-group{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    @include onMobile {
+      display: none;
+    }
+  }
+
+  &__button {
+    margin: 0 120px;
+
+    background: inherit;
+    border: none;
+  }
+
+  &-img {
+    height: 15px;
+    width: 15px;
+  }
+
+  &__title {
+    margin: 0 auto 5px;
+    width: min-content;
+
+    text-align: center;   
+    font-family: Verdana;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: normal;
+
+    color: black;
+
+    &-line {
+      height: 3px;
+      width: 240px;
+      margin: 0 auto 25px;
+
+      background-color: red;
+    }
+  }
+
+  
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+
+    text-align: center;
+  }
+
+  &__img {
+    margin: 0 auto 25px;
+    height: 70px;
+    width: 70px;
+  }
+}
+
+
+.carousel__button-img {
+  height: 15px;
+  width: 15px;
+}

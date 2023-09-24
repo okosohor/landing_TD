@@ -1,0 +1,20 @@
+@import '../../utils/vars.scss';
+
+.header {
+  &__content {
+    padding: 41px $sidePaddingDesktop;
+
+    background-image: url("./images/top\ 1.svg");
+    background-size: cover;
+  }
+
+  &__title {
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.70);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    color: $whiteColor;
+  }
+}

@@ -1,0 +1,99 @@
+@import '../../utils/vars.scss';
+@import '../../utils/mixins.scss';
+
+.footer {
+  padding-bottom: 40px;
+
+      &__container {
+        position: relative;
+
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        margin: 0px $sidePaddingDesktop;
+          
+        border-top: 4px solid $grayColor;
+        border-radius: 4px;
+
+        @include onMobile {
+          flex-direction: column;
+          text-align: center;
+          padding: 15px 40px;
+        }
+      }
+
+      &__description {
+        @include onMobile {
+          padding-top: 50px;
+        }
+
+        @include onTablet {
+          padding-top: 50px;
+        }
+        &-text {
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%; 
+          letter-spacing: 0.66px;
+
+          color: $grayColor;
+
+          @include onMobile {
+            padding-top: 10px;
+            font-size: 12px;
+          }
+        }
+      }
+
+      &__socials {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        display: flex;
+
+        &-img {
+          height: 30px;
+          width: 30px;
+          
+          &:first-child {
+            margin-right: 5px;
+          }
+        }
+      }
+
+      &__contacts {
+        display: flex;
+
+        :first-child {
+          margin-right: 15px;
+        }
+
+        &-link {
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%; 
+          letter-spacing: 0.66px;
+
+          color: $blueColor;
+          
+          transition: all 0.2s;
+
+          @include onMobile {
+            padding-top: 20px;
+            margin: 0 auto;
+          }
+
+          @include onTablet {
+            padding-top: 50px;
+            font-size: 12px;
+          }
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+}
