@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "./static/css/main.8399d3f3.chunk.css",
+    "main.js": "./static/js/main.6e82dad8.chunk.js",
+    "main.js.map": "./static/js/main.6e82dad8.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8c9895b1.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8c9895b1.js.map",
+    "static/css/2.56288462.chunk.css": "./static/css/2.56288462.chunk.css",
+    "static/js/2.e9cc9673.chunk.js": "./static/js/2.e9cc9673.chunk.js",
+    "static/js/2.e9cc9673.chunk.js.map": "./static/js/2.e9cc9673.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.56288462.chunk.css.map": "./static/css/2.56288462.chunk.css.map",
+    "static/css/main.8399d3f3.chunk.css.map": "./static/css/main.8399d3f3.chunk.css.map",
+    "static/js/2.e9cc9673.chunk.js.LICENSE.txt": "./static/js/2.e9cc9673.chunk.js.LICENSE.txt",
+    "static/media/Form.scss": "./static/media/Form-Background.ea242e8d.png",
+    "static/media/about-man.a516aee4.png": "./static/media/about-man.a516aee4.png",
+    "static/media/Main.scss": "./static/media/bg-about-secondary.9615540a.png",
+    "static/media/Description.scss": "./static/media/descBG.1aae3456.png",
+    "static/media/main-head-min.88159f63.png": "./static/media/main-head-min.88159f63.png",
+    "static/media/styles.css": "./static/media/revicons.e8746a62.woff",
+    "static/media/Header.scss": "./static/media/top 1.984d4d5e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c9895b1.js",
+    "static/css/2.56288462.chunk.css",
+    "static/js/2.e9cc9673.chunk.js",
+    "static/css/main.8399d3f3.chunk.css",
+    "static/js/main.6e82dad8.chunk.js"
+  ]
+}
