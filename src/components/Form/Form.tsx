@@ -37,13 +37,13 @@ export const Form: React.FC = () => {
     setError('');
 
     if (name.length < 3) {
-      setError('Incorect name');
+      setError('Incorrect name');
     } else if (secondName.length < 3) {
-      setError('Incorect second name');
+      setError('Incorrect second name');
     } else if (!isValidEmail(email)) {
-      setError('Incorect email');
+      setError('Incorrect email');
     } else if (!isValidPhone(phone)) {
-      setError('incorect phone');
+      setError('incorrect phone');
     } else {
       setName('');
       setSecondName('');
